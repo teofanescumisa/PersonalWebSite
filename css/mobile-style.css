@@ -103,3 +103,9 @@ body {
 .higerAndLowerTextSize {
     font-size: 12px;
 }
+.border-50 {
+    border-radius: 50%;
+}
+.border-25 {
+    border-radius: 25%;
+}

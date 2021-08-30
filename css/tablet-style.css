@@ -37,6 +37,7 @@
 
  .higherAndLowerButton {
      font-size: 1.3em;
+     margin: 0 10px;
  }
  .higerAndLowerGameInformation {
      margin: auto;
@@ -45,8 +46,14 @@
      width: 600px;
  }
  .hightAndLowerImg {
-    height: 250px;
+    height: 200px;
 }
 .higerAndLowerTextSize {
     font-size: 14px;
+}
+.border-50 {
+    border-radius: 0;
+}
+.border-40 {
+    border-radius: 0;
 }
