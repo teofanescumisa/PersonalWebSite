@@ -13,3 +13,23 @@
     width: 1em;
     height: auto;
 }
+
+/* X And 0 Game Style */
+
+.xAnd0Score {
+    display: flex;
+    justify-content: space-around;   
+}
+.xAnd0SquareContainer {
+    width: 450px;
+    height: 450px;
+}
+.xAnd0Square {
+    text-align: center;
+}
+.xAnd0Select {
+    font-size: 5em;
+}
+.xAnd0NewGame {
+    display: flex;
+}
