@@ -1,0 +1,15 @@
+ /* Navigation Bar CSS */
+.navigation {
+    display: block;
+    text-align: center;
+}
+.navigationBtn {
+    font-size: 1.1em;
+    padding: 5px;
+    width: auto;
+}
+.returnButton {
+    padding: 0px;
+    width: 1em;
+    height: auto;
+}

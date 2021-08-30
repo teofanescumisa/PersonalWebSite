@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #C2B9B0;
+}
+ /* Navigation Bar CSS */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.navigationBtn {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(76, 175, 80);
+    color: #fff;
+    width: 100%;
+}
+.navigationBtn:hover {
+    background-color: #fff;
+    border: 1px solid rgb(76, 175, 80);
+    color: rgb(76, 175, 80);
+}
+.returnButton {
+    width: 1em;    
+}
