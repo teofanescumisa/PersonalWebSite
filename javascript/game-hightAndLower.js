@@ -63,7 +63,7 @@ cardsContainer.appendChild(firstCard);
           buttonContainer.className = "flex-column";
     const higherButton = document.createElement("button");
           higherButton.className = "higherAndLowerButton";
-          higherButton.textContent = "🠹 Higher 🠹";
+          higherButton.textContent = "Higher";
           higherButton.style.display = "none";
           higherButton.onclick = gameHigherButton;
 buttonContainer.appendChild(higherButton);
@@ -74,7 +74,7 @@ buttonContainer.appendChild(higherButton);
           newGameButton.onclick = newGameMechanism;
 buttonContainer.appendChild(newGameButton);
     const lowerButton = document.createElement("button");
-          lowerButton.textContent = "🠻 Lower 🠻";
+          lowerButton.textContent = "Lower";
           lowerButton.className = "higherAndLowerButton";
           lowerButton.style.display = "none";
           lowerButton.onclick = gameLowerButton;
@@ -128,7 +128,7 @@ function newGameMechanism () {
         }
     }
 function gameHigherButton () {
-    if(higherButton.textContent === "🠹 Higher 🠹") {
+    if(higherButton.textContent === "Higher") {
     const randomCard = Math.floor((Math.random() * (gameCardDeck.length)));
     firstHandCard = gameCardDeck.splice(randomCard,1);
     firstHandCard[0].index = randomCard;
@@ -154,7 +154,7 @@ function gameHigherButton () {
        }
     }
 function gameLowerButton () {
-    if(lowerButton.textContent === "🠻 Lower 🠻") {
+    if(lowerButton.textContent === "Lower") {
         const randomCard = Math.floor((Math.random() * (gameCardDeck.length)));
         firstHandCard = gameCardDeck.splice(randomCard,1);
         firstHandCard[0].index = randomCard;
