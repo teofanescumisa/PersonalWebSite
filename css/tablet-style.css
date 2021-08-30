@@ -33,3 +33,20 @@
 .xAnd0NewGame {
     display: flex;
 }
+ /* Higher and Lower Game */
+
+ .higherAndLowerButton {
+     font-size: 1.3em;
+ }
+ .higerAndLowerGameInformation {
+     margin: auto;
+ }
+ .higerAndLowerGameContainer {
+     width: 600px;
+ }
+ .hightAndLowerImg {
+    height: 250px;
+}
+.higerAndLowerTextSize {
+    font-size: 14px;
+}

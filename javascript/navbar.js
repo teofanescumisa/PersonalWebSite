@@ -30,6 +30,7 @@ function clickGamesButton() {
     clearNavigationBar();
     returnButton(clickProjectsButton);
     createNewNavigationButton("X and 0","navigationBtn",xAnd0Game);
+    createNewNavigationButton("Highter And Lower","navigationBtn",highterAndLowerGame);
 }
 
 

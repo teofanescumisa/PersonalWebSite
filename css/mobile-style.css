@@ -12,8 +12,14 @@ body {
     display: flex;
     flex-direction:column;
 }
+.content-space-around {
+    justify-content: space-around;
+}
 .margin-auto {
     margin: auto;
+}
+.text-center {
+    text-align: center;
 }
 .text-red {
     color: red;
@@ -73,4 +79,27 @@ body {
 }
 .xAnd0NewGame {
     margin: 20px auto auto;
-} 
+}
+
+/* Higher and Lower Game */
+
+.higherAndLowerButton {
+    height: 100%;
+    font-weight: bold;
+    font-size: 1em;
+}
+.higerAndLowerGameContainer {
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+}
+.higerAndLowerGameInformation {
+    text-align: justify;
+    margin: 0 15px;
+}
+.hightAndLowerImg {
+    height: 115px;
+}
+.higerAndLowerTextSize {
+    font-size: 12px;
+}
