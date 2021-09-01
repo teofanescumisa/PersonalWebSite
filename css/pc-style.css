@@ -1,3 +1,7 @@
+.display {
+    width: 70vw; 
+    font-size: 16px;  
+}
 /* X And 0 Game Style */
 .xAnd0SquareContainer {
     width: 650px;
@@ -7,4 +11,10 @@
  /* Higher and Lower Game */
 .higerAndLowerTextSize {
     font-size: 16px;
+}
+
+/* American Poker 90` */
+
+.pokerCardImg {
+    width: 11vw;
 }

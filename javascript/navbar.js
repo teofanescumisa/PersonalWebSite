@@ -31,6 +31,7 @@ function clickGamesButton() {
     returnButton(clickProjectsButton);
     createNewNavigationButton("X and 0","navigationBtn",xAnd0Game);
     createNewNavigationButton("Highter And Lower","navigationBtn",highterAndLowerGame);
+    createNewNavigationButton("American Poker 90`","navigationBtn",americanPoker90);
 }
 
 

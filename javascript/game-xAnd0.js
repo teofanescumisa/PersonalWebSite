@@ -1,3 +1,7 @@
+/*
+X and 0 Game
+Made by Teofanescu Misa
+*/
 function xAnd0Game () {
 newProject();
 let gameTurn = "Player 1";    
@@ -24,7 +28,7 @@ scoreContainer.appendChild(drow);
 secoundPlayer.appendChild(secoundPlayerScore);
 scoreContainer.appendChild(secoundPlayer);
     const textContainer = document.createElement("section");
-          textContainer.className = "xAnd0Text";
+          textContainer.className = "text-center";
     const gameText = document.createElement("p");
           gameText.textContent = "1st Player Turn ! Pick a empty square.";
 textContainer.appendChild(gameText);

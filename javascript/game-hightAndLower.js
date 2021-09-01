@@ -1,3 +1,8 @@
+/*
+Highter and Lower Game 
+Made By Teofanescu Misa
+*/
+
 function highterAndLowerGame () {
 newProject();
 let gameCardDeck =[];
