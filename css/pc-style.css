@@ -18,3 +18,11 @@
 .pokerCardImg {
     width: 11vw;
 }
+/* Random Color App */
+.color-text {
+    margin: 5px 35vw;
+}
+.randomColorDiv {
+    width: 200px;
+    height: 200px;
+}

@@ -35,6 +35,9 @@ body {
 .text-blue {
     color: #00F;
 }
+.text-bold {
+    font-weight: bold;
+}
 
  /* Navigation Bar CSS */
 .navigation {
@@ -196,4 +199,15 @@ body {
 }
 .font-22px {
     font-size: 22px;
+}
+/* Random Color App */
+
+.randomColorDiv {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    border: 1px solid #fff;
+}
+.color-text {
+    margin: 5px 20vw;
 }
