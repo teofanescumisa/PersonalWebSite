@@ -273,5 +273,3 @@ root.appendChild(gameInfo);
 root.appendChild(gameInfoText);
 root.appendChild(deckContainer);
 };
-
-// americanPoker90();

@@ -35,6 +35,7 @@ body {
 .text-blue {
     color: #00F;
 }
+
  /* Navigation Bar CSS */
 .navigation {
     display: flex;
@@ -155,4 +156,44 @@ body {
     width: auto;
     height: 3vh;
     margin: auto 5px;
+}
+
+/* Application -> Calculator */
+
+.calculatorBody {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin: 25px auto;
+}
+.buttons4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 70px;
+}
+.buttons3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    height: 70px;
+}
+.calculatorScreen {
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-top: 8px;
+    padding-right: 5px;
+    height: 35px;
+    font-size: 21px;
+    border: #fff solid 1px;
+    background-color: #3A4655;
+    color: #fff;
+    border-radius: 6px;
+}
+.calculatorDisplay {
+    display: flex;
+    flex-direction: column;
+}
+.font-22px {
+    font-size: 22px;
 }

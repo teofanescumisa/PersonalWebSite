@@ -23,7 +23,9 @@ function clickAboutMisha () {
 function clickProjectsButton () {
     clearNavigationBar();
     returnButton(clickMenuButton);
+    createNewNavigationButton("Apps","navigationBtn",clickAppsButton);
     createNewNavigationButton("Games","navigationBtn",clickGamesButton);
+    
 }
 // GAMES Button
 function clickGamesButton() {
@@ -33,7 +35,11 @@ function clickGamesButton() {
     createNewNavigationButton("Highter And Lower","navigationBtn",highterAndLowerGame);
     createNewNavigationButton("American Poker 90`","navigationBtn",americanPoker90);
 }
-
+function clickAppsButton() {
+    clearNavigationBar();
+    returnButton(clickProjectsButton);
+    createNewNavigationButton("Calculator","navigationBtn",appCalculator);
+}
 
 
 
