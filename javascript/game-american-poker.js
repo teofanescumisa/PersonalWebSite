@@ -1,6 +1,6 @@
 /*
 American Poker 90` 
-Made By Teofanescu Misa
+Made By Teofanescu Misha
 */
 function americanPoker90 () {
 newProject();

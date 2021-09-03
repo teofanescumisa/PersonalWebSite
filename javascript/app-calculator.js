@@ -1,6 +1,6 @@
 /*
 Calculator with 22 number maximum on display
-Made By Teofanescu Misa
+Made By Teofanescu Misha
 */
 function appCalculator () {
     newProject();

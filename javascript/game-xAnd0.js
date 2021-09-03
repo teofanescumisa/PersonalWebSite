@@ -1,6 +1,6 @@
 /*
 X and 0 Game
-Made by Teofanescu Misa
+Made by Teofanescu Misha
 */
 function xAnd0Game () {
 newProject();

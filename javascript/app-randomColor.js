@@ -1,6 +1,6 @@
 /*
 Random Color Generator
-Made by Teofanescu Misa
+Made by Teofanescu Misha
 */
 
 function appRandomColor () {

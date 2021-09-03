@@ -211,3 +211,37 @@ body {
 .color-text {
     margin: 5px 20vw;
 }
+
+
+/* Random Jokes App */
+
+.jokesBody {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    margin: auto;
+}
+.jokeContainer {
+    margin : 10px auto 0px;
+    border: solid 1px;
+    min-width: 40vw;
+}
+.Joke-Container {
+    margin-right: 20px;
+    padding-left: 10px;
+    border-left: solid 1px;
+}
+.joke-answer {
+    background-color: #4cd5da;
+    color: #4cd5da;
+}
+.joke-answer:hover {
+    color: #000;
+    font-weight: bold;
+}
+.jokeNumber {
+    margin: auto 20px;
+}
+.selectContainer {
+    margin: 20px auto;
+}

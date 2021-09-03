@@ -1,6 +1,6 @@
 /*
 Highter and Lower Game 
-Made By Teofanescu Misa
+Made By Teofanescu Misha
 */
 
 function highterAndLowerGame () {

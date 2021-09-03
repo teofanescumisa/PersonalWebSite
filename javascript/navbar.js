@@ -40,6 +40,7 @@ function clickAppsButton() {
     returnButton(clickProjectsButton);
     createNewNavigationButton("Calculator","navigationBtn",appCalculator);
     createNewNavigationButton("Random Color App","navigationBtn",appRandomColor);
+    createNewNavigationButton("Random Jokes","navigationBtn",appRandomJokes);
 }
 
 
