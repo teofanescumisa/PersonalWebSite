@@ -3,12 +3,14 @@
     font-size: 16px;  
 }
 /* X And 0 Game Style */
+
 .xAnd0SquareContainer {
     width: 650px;
     height: 650px;
 }
 
  /* Higher and Lower Game */
+
 .higerAndLowerTextSize {
     font-size: 16px;
 }
@@ -18,7 +20,9 @@
 .pokerCardImg {
     width: 11vw;
 }
+
 /* Random Color App */
+
 .color-text {
     margin: 5px 35vw;
 }
@@ -26,3 +30,6 @@
     width: 200px;
     height: 200px;
 }
+
+/* Random Jokes App */
+

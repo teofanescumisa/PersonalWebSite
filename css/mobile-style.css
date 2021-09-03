@@ -218,13 +218,14 @@ body {
 .jokesBody {
     display: flex;
     flex-direction: column;
-    max-width: 90vw;
+    max-width: 300px ;
     margin: auto;
 }
 .jokeContainer {
     margin : 10px auto 0px;
     border: solid 1px;
     min-width: 40vw;
+    max-width: 80vw;
 }
 .Joke-Container {
     margin-right: 20px;

@@ -130,3 +130,4 @@ function categoryOfJoke () {
 root.appendChild(divBody);
 root.appendChild(jokesListContainer);
 };
+appRandomJokes();
