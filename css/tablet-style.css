@@ -78,3 +78,7 @@
 }
 /* Random Jokes App */
 
+.jokeContainer {
+    min-width: 40vw;
+    max-width: 70vw;
+}

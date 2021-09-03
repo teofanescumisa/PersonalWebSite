@@ -33,3 +33,6 @@
 
 /* Random Jokes App */
 
+.jokeContainer {
+    max-width: 70vw;
+}
