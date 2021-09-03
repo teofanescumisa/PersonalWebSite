@@ -62,13 +62,17 @@ function createNewJoke (data) {
     const answerApiAnswer = document.createElement("span");
           answerApiAnswer.className ="joke-answer";
           answerApiAnswer.textContent = data.delivery;
+          answerApiAnswer.onclick = mobileHide;
     question.appendChild(questionApiAnswer);
     answer.appendChild(answerApiAnswer);
     joke.appendChild(question);
     joke.appendChild(answer);
     div.appendChild(joke);
     jokesListContainer.appendChild(div);
-}  
+    function mobileHide () {
+        answerApiAnswer.style.color = "#000";
+    } 
+} 
 function categoryOfJoke () {
     if (select.value == "Any Jokes") {
         fetch("https://v2.jokeapi.dev/joke/Any?type=twopart&amount=10")
